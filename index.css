@@ -1,0 +1,283 @@
+header {
+    display: flex;
+    width: 100%;
+    background-color: firebrick;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.myNav{
+    padding:0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.navList{
+    text-align:center;
+    font-size: 1.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    padding: 0.1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin: 2vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    list-style-type: none;
+}
+.navList a{
+    text-decoration:none;
+    color:ghostwhite;
+}
+nav {
+    margin-left:auto;
+}
+footer
+{
+    width: 100%;
+    background-color: darkblue;
+    margin-top: auto;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+}
+.logo {
+    max-width: 20%;
+    max-height: 20%;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+video
+{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin-top: auto;
+
+}
+iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin-top: auto;
+}
+.StudS
+{
+    text-align:center;
+    font-size: 1.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    padding: 0.1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin: 2vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+#Header
+{
+    text-align: center;
+    display: block;
+    flex: auto;
+    color: slategray;
+    font-size: 48px;
+}
+p{
+    text-align: center;
+    display: block;
+    flex: auto;
+    font-size: 1.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    padding: 0.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin: 0.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+}
+h3
+{
+	text-align: center;
+    display: block;
+    flex: auto;
+    font-size: 2.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    padding: 0.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin: 0.5vw;
+}
+h2
+{
+    text-align: center;
+    display: block;
+    flex: auto;
+    color: firebrick;
+    font-size: 3vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+}
+.block {/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns*/
+    color: white;
+}
+.undBlock{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    color: white;
+}
+.link {
+    color: white;
+}
+.block:after {/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns*/
+    content: "";
+    display: table;
+    clear: both;
+}
+.container-button{/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vw auto;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+}
+.jumper{/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns*/
+    float: left;
+    max-width: 31%;
+    max-height: 60vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin: 1.5vw auto;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    padding: 1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: table-cell;
+}
+.hoodie{/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns*/
+    float: left;
+    max-width: 31%;
+    max-height: 60vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin: 1.5vw auto;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    padding: 1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: table-cell;
+}
+.tshirt{/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns*/
+    float: left;
+    max-width: 31%;
+    max-height: 60vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    margin: 1.5vw auto;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    padding: 1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+    color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: table-cell;
+}
+.itemBlock{
+    color: black;
+    display: table;
+}
+.itemBlock:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+.containerForProd
+{
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+.inf
+{
+    background-color: white;
+    border: none;
+    color: blue;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+}
+.productImage
+{
+    max-width: 40%;
+    max-height: 40%;
+    height: auto;
+    width: auto;
+}
+.flexContainer {/*https://www.w3schools.com/css/css3_flexbox_container.asp*/
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.flexContainer > div {/*https://www.w3schools.com/css/css3_flexbox_container.asp*/
+    margin: 5px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+}
+.flexContainer > img {/*https://www.w3schools.com/css/css3_flexbox_container.asp*/
+    margin: 5px;
+    padding: 10px;
+    max-width: 40%;
+    max-height:40%;
+    height: auto;
+    width: auto;
+}
+.flexContainer > .Dva {/*https://www.w3schools.com/css/css3_flexbox_container.asp*/
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+}
+.productItem/*https://www.w3schools.com/css/css3_flexbox_container.asp*/
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+}
+.flexContainer > .offers {/*https://www.w3schools.com/css/css3_flexbox_container.asp*/
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5vw;/*https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
+	
+}
+.flexOffers {/*https://www.w3schools.com/css/css3_flexbox_container.asp*/
+    display: flex;
+    text-align:center;
+    justify-content: center;
+	flex-direction: column;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 12px;
+	background-color: navy blue;
+}
+#buttonCentred
+{
+	display: flex;
+    text-align:center;
+    justify-content: center;
+	margin: 10px;
+}
+.reviewContainer
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+.rewievExample
+{
+	padding: 15px;	
+}
